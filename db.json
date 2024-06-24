@@ -1,0 +1,87 @@
+{
+  "pedidos": [
+    {
+      "id": 1,
+      "usuario": 1,
+      "produtos": [
+        { "id": 1, "quantidade": 2, "nome": "hamburguer", "preco": 10.99 },
+        { "id": 3, "quantidade": 1, "nome": "esfirra", "preco": 15.99 }
+      ],
+      "descricao": "Sem alface e com muito molho",
+      "valorTotal": 36.97,
+      "data": "05/06/24 18:25:31",
+      "status": "pendente"
+    },
+    {
+      "id": 2,
+      "usuario": 2,
+      "produtos": [
+        { "id": 2, "quantidade": 1, "nome": "pizza", "preco": 20.50 },
+        { "id": 4, "quantidade": 3, "nome": "coxinha", "preco": 5.99 }
+      ],
+      "descricao": "Pedido para festa de aniversário",
+      "valorTotal": 38.47,
+      "data": "05/06/24 19:30:00",
+      "status": "entregue"
+    },
+    {
+      "id": 3,
+      "usuario": 1,
+      "produtos": [
+        { "id": 5, "quantidade": 1, "nome": "refrigerante", "preco": 5.00 },
+        { "id": 6, "quantidade": 2, "nome": "batata frita", "preco": 8.00 }
+      ],
+      "descricao": "Pedido para assistir ao jogo",
+      "valorTotal": 21.00,
+      "data": "05/06/24 20:15:00",
+      "status": "preparando"
+    },
+    {
+      "id": 4,
+      "usuario": 2,
+      "produtos": [
+        { "id": 7, "quantidade": 1, "nome": "sorvete", "preco": 6.00 },
+        { "id": 8, "quantidade": 1, "nome": "milkshake", "preco": 7.50 }
+      ],
+      "descricao": "Pedido para sobremesa",
+      "valorTotal": 13.50,
+      "data": "05/06/24 21:00:00",
+      "status": "entregue"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Samuel Araujo",
+      "email": "mumuca1999@gmail.com",
+      "senha": "@W1",
+      "matricula": "1471283"
+    },
+    {
+      "id": 2,
+      "nome": "Samuel Oliveira",
+      "email": "oliveira.samuel.edu@gmail.com",
+      "senha": "@W1",
+      "matricula": "0000000"
+    }
+  ],
+
+  "clientes": [
+    {
+    "id": 1,
+    "nome": "Samuel Araujo",
+    "email": "mumuca1999@gmail.com",
+    "senha": "@W1",
+    "matricula": "1471283"
+  },
+     {
+    "id": 2,
+    "nome": "Samuel Oliveira",
+    "email": "oliveira.samuel.edu@gmail.com",
+    "senha": "@W1",
+    "matricula": "0000000"
+  }
+    
+  ]
+  
+}
